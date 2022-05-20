@@ -1,5 +1,5 @@
 const build = [
-  "/_app/start-a916bb65.js",
+  "/_app/start-fb5b1769.js",
   "/_app/pages/__layout.svelte-2c1b7288.js",
   "/_app/assets/pages/__layout.svelte-29c2b141.css",
   "/_app/error.svelte-ebd0a545.js",
@@ -16,7 +16,7 @@ const files = [
   "/manifest.webmanifest",
   "/maskable_icon.png"
 ];
-const version = "1653047714910";
+const version = "1653061544655";
 const CACHE_NAME = `sql-joins-${version}`;
 var activateEvent = (event) => {
   event.waitUntil(caches.keys().then((keys) => keys.filter((key) => key !== CACHE_NAME)).then((keysToRemove) => Promise.all(keysToRemove.map((key) => caches.delete(key)))).then(() => self.clients.claim()));
