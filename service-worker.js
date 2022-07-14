@@ -1,11 +1,11 @@
 const build = [
-  "/_app/immutable/start-bb17aa56.js",
-  "/_app/immutable/pages/__layout.svelte-972addcd.js",
+  "/_app/immutable/start-f952c600.js",
+  "/_app/immutable/pages/__layout.svelte-bb172639.js",
   "/_app/immutable/assets/pages/__layout.svelte-fcfd45e0.css",
-  "/_app/immutable/error.svelte-ebd0a545.js",
-  "/_app/immutable/pages/index.svelte-592e2a7c.js",
+  "/_app/immutable/error.svelte-4496360b.js",
+  "/_app/immutable/pages/index.svelte-a835fd16.js",
   "/_app/immutable/assets/pages/index.svelte-4c0fa22a.css",
-  "/_app/immutable/chunks/index-349d637e.js"
+  "/_app/immutable/chunks/index-168ca386.js"
 ];
 const files = [
   "/apple-touch-icon.png",
@@ -16,7 +16,7 @@ const files = [
   "/manifest.webmanifest",
   "/maskable_icon.png"
 ];
-const version = "1656870910906";
+const version = "1657794344099";
 const CACHE_NAME = `sql-joins-${version}`;
 var activateEvent = (event) => {
   event.waitUntil(caches.keys().then((keys) => keys.filter((key) => key !== CACHE_NAME)).then((keysToRemove) => Promise.all(keysToRemove.map((key) => caches.delete(key)))).then(() => self.clients.claim()));
