@@ -1,5 +1,5 @@
 const n = [
-  "/_app/immutable/start-8ad595d8.js",
+  "/_app/immutable/start-8cf2a691.js",
   "/_app/immutable/pages/__layout.svelte-420e7561.js",
   "/_app/immutable/assets/__layout-30d161eb.css",
   "/_app/immutable/error.svelte-18aa0353.js",
@@ -14,7 +14,7 @@ const n = [
   "/icon-512.png",
   "/manifest.webmanifest",
   "/maskable_icon.png"
-], l = "1658176765234", a = `sql-joins-${l}`, c = (t) => {
+], l = "1658483462127", a = `sql-joins-${l}`, c = (t) => {
   t.waitUntil(caches.keys().then((e) => e.filter((s) => s !== a)).then((e) => Promise.all(e.map((s) => caches.delete(s)))).then(() => self.clients.claim()));
 }, p = (t) => {
   t.waitUntil(caches.open(a).then((e) => Promise.all([
